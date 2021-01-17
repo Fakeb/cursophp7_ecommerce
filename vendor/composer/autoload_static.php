@@ -11,6 +11,10 @@ class ComposerStaticInitfa314e73e604c60fb24e7e5cc91d2141
         array (
             'PHPMailer\\PHPMailer\\' => 20,
         ),
+        'H' => 
+        array (
+            'Hcode\\' => 6,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -18,10 +22,10 @@ class ComposerStaticInitfa314e73e604c60fb24e7e5cc91d2141
         array (
             0 => __DIR__ . '/..' . '/phpmailer/phpmailer/src',
         ),
-    );
-
-    public static $fallbackDirsPsr4 = array (
-        0 => __DIR__ . '/..' . '/hcodebr/php-classes/src',
+        'Hcode\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/hcodebr/php-classes/src',
+        ),
     );
 
     public static $prefixesPsr0 = array (
@@ -50,7 +54,6 @@ class ComposerStaticInitfa314e73e604c60fb24e7e5cc91d2141
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInitfa314e73e604c60fb24e7e5cc91d2141::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInitfa314e73e604c60fb24e7e5cc91d2141::$prefixDirsPsr4;
-            $loader->fallbackDirsPsr4 = ComposerStaticInitfa314e73e604c60fb24e7e5cc91d2141::$fallbackDirsPsr4;
             $loader->prefixesPsr0 = ComposerStaticInitfa314e73e604c60fb24e7e5cc91d2141::$prefixesPsr0;
             $loader->classMap = ComposerStaticInitfa314e73e604c60fb24e7e5cc91d2141::$classMap;
 
