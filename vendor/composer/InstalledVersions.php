@@ -24,24 +24,24 @@ class InstalledVersions
 private static $installed = array (
   'root' => 
   array (
-    'pretty_version' => '1.0.0+no-version-set',
-    'version' => '1.0.0.0',
+    'pretty_version' => 'dev-master',
+    'version' => 'dev-master',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => 'bbc784edc771093f6e5d30821322593ea69152ba',
     'name' => 'fakeb/cursophp7_ecommerce',
   ),
   'versions' => 
   array (
     'fakeb/cursophp7_ecommerce' => 
     array (
-      'pretty_version' => '1.0.0+no-version-set',
-      'version' => '1.0.0.0',
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => 'bbc784edc771093f6e5d30821322593ea69152ba',
     ),
     'phpmailer/phpmailer' => 
     array (
